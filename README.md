@@ -91,6 +91,3 @@ To scrape data from ForexFactory:
 - **Localtunnel Issues**: Ensure that `localtunnel` is correctly installed and running. Check for any error messages and verify that the Streamlit app is running.
 - **Library Errors**: Verify that all necessary libraries are installed correctly. Re-run the installation commands if necessary.
 
-## License
-
-This project is licensed under the MIT License. See the LICENSE file for details.
