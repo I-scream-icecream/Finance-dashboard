@@ -22,19 +22,19 @@ Run the following cell to install required libraries and `localtunnel`:
 
 Create the `DMIT.py` file with the code for the Dynamic Market Insights Tool:
 
-    ```python
+  ```python
     %%writefile DMIT.py
     # (Insert the DMIT.py code here from your provided script)
-    ```
+  ```
 
 ### 3. Setup ForexFactory Web Scraper
 
 Create the `forexfactory.py` file for the ForexFactory web scraper:
 
-    ```python
+  ```python
     %%writefile forexfactory.py
     # (Insert the forexfactory.py code here from your provided script)
-    ```
+  ```
 
 ### 4. Deploy Streamlit App
 
@@ -42,15 +42,15 @@ To deploy the Streamlit app and make it accessible:
 
 1. **Fetch Your Public IP Address**:
 
-        ```python
+   ```python
         !wget -q -O - ipv4.icanhazip.com
-        ```
+   ```
 
 2. **Run Streamlit App and Setup Localtunnel**:
 
-        ```python
+   ```python
         !streamlit run DMIT.py & npx localtunnel --port 8501
-        ```
+   ```
 
    - Copy the IPv4 address displayed from the previous command.
    - Use this IPv4 address as a password for the localtunnel URL.
@@ -62,16 +62,16 @@ To scrape data from ForexFactory:
 
 1. **Change to the Pages Directory**:
 
-        ```python
+   ```python
         !mkdir -p /content/pages
         %cd /content/pages
-        ```
+   ```
 
 2. **Run the ForexFactory Scraper**:
 
-        ```python
+   ```python
         !python forexfactory.py
-        ```
+   ```
 
    - Download the generated CSV file and view the data.
 
