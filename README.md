@@ -13,10 +13,10 @@ Follow these steps to run the tools on Google Colab:
 
 Run the following cell to install required libraries and `localtunnel`:
   
-    ```python
+  ```python
     !pip install streamlit yfinance pandas requests numpy matplotlib pandas_datareader keras scikit-learn selenium
     !npm install -g localtunnel
-    ```
+  ```
 
 ### 2. Setup Streamlit App for DMIT
 
