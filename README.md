@@ -24,7 +24,7 @@ Create the `DMIT.py` file with the code for the Dynamic Market Insights Tool:
 
   ```python
     %%writefile DMIT.py
-    # (Insert the DMIT.py code here from your provided script)
+    # (Insert the DMIT.py code here from script)
   ```
 
 ### 3. Setup ForexFactory Web Scraper
@@ -33,7 +33,7 @@ Create the `forexfactory.py` file for the ForexFactory web scraper:
 
   ```python
     %%writefile forexfactory.py
-    # (Insert the forexfactory.py code here from your provided script)
+    # (Insert the forexfactory.py code here from script)
   ```
 
 ### 4. Deploy Streamlit App
